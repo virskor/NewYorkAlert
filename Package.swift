@@ -4,15 +4,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "NewYorkAlert",
+    name: "NewYorkAlertCustomed",
     platforms: [
         .iOS(.v11)
     ],
     products: [
-        .library(name: "NewYorkAlert", targets: ["NewYorkAlert"])
+        .library(name: "NewYorkAlertCustomed", targets: ["NewYorkAlertCustomed"])
     ],
     targets: [
-        .target(name: "NewYorkAlert", path: "Sources"),
+        .target(name: "NewYorkAlertCustomed", path: "Sources"),
     ],
     swiftLanguageVersions: [.v5]
 )
