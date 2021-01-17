@@ -11,8 +11,8 @@ public final class NewYorkButton: UIButton {
     // MARK: Constant
 
     private enum Const {
-        static let fontSize: CGFloat = 14
-        static let buttonHeight: CGFloat = 55
+        static let fontSize: CGFloat = 16
+        static let buttonHeight: CGFloat = 50
         static let animationDuration: TimeInterval = 0.2
     }
 

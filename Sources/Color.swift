@@ -128,21 +128,11 @@ extension NewYorkDynamicColor {
         static let overlay = UIColor(white: 0, alpha: 0.5)
 
         static let separator: UIColor = {
-            if #available(iOS 13.0, *) {
-                return UIColor.separator
-            }
-            else {
-                return UIColor(white: 0.9, alpha: 1)
-            }
+            return UIColor(white: 0.9, alpha: 1)
         }()
 
         static let highlighted: UIColor = {
-            if #available(iOS 13.0, *) {
-                return UIColor.systemGray5
-            }
-            else {
-                return UIColor(white: 0.9, alpha: 1)
-            }
+            return UIColor(white: 0.9, alpha: 1)
         }()
 
         static func button(_ isHighlighted: Bool) -> UIColor {

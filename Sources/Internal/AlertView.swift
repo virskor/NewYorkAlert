@@ -16,8 +16,8 @@ final class AlertView: UIView, NewYorkAlertViewType {
         }
 
         enum FontSize {
-            static let title: CGFloat = 16
-            static let message: CGFloat = 14
+            static let title: CGFloat = 18
+            static let message: CGFloat = 16
         }
 
         enum Spacing {
@@ -26,7 +26,7 @@ final class AlertView: UIView, NewYorkAlertViewType {
         }
 
         static let padding: CGFloat = 24
-        static let cornerRadius: CGFloat = 5
+        static let cornerRadius: CGFloat = 10
         static let imageHeight: CGFloat = 150
     }
 
@@ -101,6 +101,7 @@ final class AlertView: UIView, NewYorkAlertViewType {
         let view = UIView()
         view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = NewYorkDynamicColor.Background.separator
+        view.heightAnchor.constraint(equalToConstant: CGFloat(0.5)).isActive = true
         return view
     }()
 

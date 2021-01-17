@@ -16,14 +16,14 @@ final class ActionSheetView: UIView, NewYorkAlertViewType {
         }
 
         enum Spacing {
-            static let large: CGFloat = 16
-            static let small: CGFloat = 8
+            static let large: CGFloat = 8
+            static let small: CGFloat = 6
         }
 
         static let margin: CGFloat = 8
         static let padding: CGFloat = 16
         static let maxActionSheetWidth: CGFloat = 400
-        static let cornerRadius: CGFloat = 5
+        static let cornerRadius: CGFloat = 10
         static let imageHeight: CGFloat = 150
     }
 

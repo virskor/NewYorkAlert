@@ -7,7 +7,7 @@ import UIKit
 
 extension UIStackView {
     private enum Const {
-        static let borderWidth: CGFloat = 1.0
+        static let borderWidth: CGFloat = 0.5
     }
 
     func addSeparator() {
